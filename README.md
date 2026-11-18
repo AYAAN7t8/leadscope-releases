@@ -20,11 +20,14 @@ Click **More info → Run anyway** if you downloaded it from this page.
 Each release lists the SHA-256 checksum of the zip so you can check your download:
 
 ```powershell
-Get-FileHash .\LeadScope-Setup-0.3.0.zip -Algorithm SHA256
+Get-FileHash .\LeadScope-Setup-0.3.1.zip -Algorithm SHA256
 ```
 
-## What's new in 0.3.0
+## What's new in 0.3.1
 
+- **Contact buttons on every lead**: Email, Call, WhatsApp, Telegram, or Reply on post. They open your own apps; LeadScope never sends messages.
+- **New sources**: PeoplePerHour, and Freelancer.com (off by default, see its note in the app).
+- **Fix**: 0.3.0 shipped an older engine; Schedules, own sites and Google Maps (browser) work again.
 - **Schedules**: save a search to run by itself every day or on chosen weekdays; new leads go to Excel automatically.
 - **Runs in the tray** and can start with Windows, so schedules run without opening the app.
 - **Add your own sites**: paste any job board, project marketplace or directory page.
