@@ -20,11 +20,12 @@ Click **More info → Run anyway** if you downloaded it from this page.
 Each release lists the SHA-256 checksum of the zip so you can check your download:
 
 ```powershell
-Get-FileHash .\LeadScope-Setup-0.3.1.zip -Algorithm SHA256
+Get-FileHash .\LeadScope-Setup-0.3.2.zip -Algorithm SHA256
 ```
 
-## What's new in 0.3.1
+## What's new in 0.3.2
 
+- **Facebook, Instagram, X and Telegram**: search posts with your own login, or add groups, pages and public channels. Off until you accept the risk (these platforms forbid automated reading and may limit your account).
 - **Contact buttons on every lead**: Email, Call, WhatsApp, Telegram, or Reply on post. They open your own apps; LeadScope never sends messages.
 - **New sources**: PeoplePerHour, and Freelancer.com (off by default, see its note in the app).
 - **Fix**: 0.3.0 shipped an older engine; Schedules, own sites and Google Maps (browser) work again.
